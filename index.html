@@ -11,7 +11,7 @@
     <style>
     body {
         font-family: 'Rubik', sans-serif;
-        font-size: 1.3em;
+        font-size: 1em;
         background: #EEE;
         padding: 1em;
     }
@@ -29,16 +29,26 @@
     
     @media (prefers-color-scheme: dark) {
         body {
-            background: #444;
+            background: #111;
+            color: #eee;
         }
         
         div {
-            background: #111;
+            background: #000;
             -webkit-box-shadow: unset;
             box-shadow: unset;
         }
     }
     
+    @media (max-width: 400px) {
+         body {
+             font-size: 1.3em;
+             padding: 0.1em;   
+         }
+         div {
+             padding: 0.4em;
+         }
+    }
     </style>
 </head>
 <body>
