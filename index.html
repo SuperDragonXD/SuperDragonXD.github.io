@@ -12,12 +12,12 @@
       body {
         background-color: #f0f0f2;
         margin: 0;
-        padding: 0;
+        padding: 1em;
         font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI",
           "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
       }
       div {
-        width: 600px;
+        max-width: 600px;
         margin: 5em auto;
         padding: 2em;
         background-color: #fdfdff;
@@ -63,10 +63,20 @@
       @media (max-width: 400px) {
         body {
           font-size: 1.3em;
-          padding: 0.4em;
+          padding: 0.5em;
         }
         div {
           padding: 1em;
+          margin: 1em 0;
+        }
+      }
+      
+      @media (max-width: 250px) {
+        body {
+          font-size: 1em
+        }
+        h1 {
+          font-size:1.1em
         }
       }
     </style>
