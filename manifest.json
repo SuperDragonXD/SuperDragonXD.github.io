@@ -4,6 +4,8 @@
  "start_url": "index.html",
  "display": "standalone",
  "scope": ".",
+ "theme_color": "#24292f",
+ "background_color": "#24292f",
  "description": "GitHub website of SuperDragonXD",
  "icons": [
   {
