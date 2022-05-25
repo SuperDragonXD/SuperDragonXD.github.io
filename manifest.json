@@ -1,5 +1,10 @@
 {
- "name": "App",
+ "name": "GitHub - SuperDragonXD",
+ "short_name": "SDXD",
+ "start_url": "index.html",
+ "display": "standalone",
+ "scope": ".",
+ "description": "GitHub website of SuperDragonXD",
  "icons": [
   {
    "src": "\/android-icon-36x36.png",
