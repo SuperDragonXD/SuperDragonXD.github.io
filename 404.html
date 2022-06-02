@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="GitHub website of SuperDragonXD" />
+    <title>GitHub - SuperDragonXD</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
+      defer
+    />
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="/android-icon-192x192.png"
+    />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="msapplication-TileColor" content="#24292f" />
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#24292f" />
+
+    <style type="text/css">
+      body {
+        background-color: #f0f0f2;
+        margin: 0;
+        padding: 1em;
+        font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI",
+          "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      }
+      div {
+        max-width: 600px;
+        margin: 5em auto;
+        padding: 2em;
+        background-color: #fdfdff;
+        border-radius: 0.5em;
+        box-shadow: 2px 3px 7px 2px rgba(0, 0, 0, 0.02);
+      }
+      a {
+        color: #0400ff;
+        text-decoration: none;
+        outline-offset: 4px;
+      }
+
+      a:hover {
+        border-bottom: 1px dashed;
+      }
+
+      a:active {
+        background: #1111;
+      }
+      a:visited {
+        color: #5600ff;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        body {
+          background: #121212;
+          color: #eee;
+        }
+
+        div {
+          background: #010101;
+        }
+
+        a {
+          color: #5996ff;
+        }
+
+        a:visited {
+          color: #a54aff;
+        }
+      }
+
+      @media (max-width: 400px) {
+        body {
+          font-size: 1.3em;
+          padding: 0.5em;
+        }
+        div {
+          padding: 1em;
+          margin: 1em 0;
+        }
+      }
+
+      @media (max-width: 250px) {
+        body {
+          font-size: 1em;
+        }
+        h1 {
+          font-size: 1.1em;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div>
+      <h1>404 Not Found</h1>
+      <p>The resource can not be found.</p>
+      <a href="/">Back to home</a>
+    </div>
+    <script>
+      window.addEventListener("load", () => {
+        registerSW();
+      });
+
+      // Register the Service Worker
+      async function registerSW() {
+        if ("serviceWorker" in navigator) {
+          try {
+            await navigator.serviceWorker.register("serviceworker.js");
+          } catch (e) {
+            console.log("SW registration failed");
+          }
+        }
+      }
+    </script>
+  </body>
+</html>
